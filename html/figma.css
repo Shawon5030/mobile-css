@@ -1,0 +1,921 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:serif;
+
+
+
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 165, 2, 0.5);
+
+}
+.main ,.navber , .first_ul , .second_ul , .third_ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.first_ul{
+   position: absolute;
+   top: 5px;
+   left: 50px;
+   color: rgba(60, 34, 124, 1);
+   font-weight: 800;
+
+
+}
+
+.second_ul{
+position: absolute;
+top:0;
+right: 40%;
+color: rgba(55, 63, 65, 1);
+
+}
+.third_ul{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    color: rgba(60, 100, 177, 1);
+}
+
+a{
+
+    text-decoration: none;
+}
+li{
+    margin: 3px;
+    padding: 10px;
+}
+.Sign_up{
+    background: rgb(206, 14, 62);
+    color: white;
+    border: 1px solid rgba(247, 60, 107, 1);
+    border-radius: 5px;
+
+
+}
+.Sign_up a{
+    color: aliceblue;
+}
+
+.image_div{
+    width: 47vw;
+    height: 89vh;
+    position: absolute;
+
+    bottom: 0;
+    right: 47%;
+
+}
+.first_image{
+    width: 39vw;
+    height: 87vh;
+}
+
+.text{
+    width: 27vw;
+    height: 56vh;
+    position: absolute;
+    top: 28%;
+    left: 54%;
+    word-spacing: 0;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.text_h2{
+    font-weight:900;
+    font-size: 35px;
+    color: rgba(55, 63, 65, 1);
+    margin-bottom: 5vh;
+
+
+
+}
+
+.text_p{
+    word-spacing: 5px;
+    text-align: justify;
+    margin-bottom: 7vh;
+     color: rgba(115, 123, 125, 1);
+
+}
+
+.text_button{
+    padding: 20px 30px;
+     border: 1px solid rgba(247, 60, 107, 1);
+     background-color: transparent;
+     color:rgba(247, 60, 107, 1);
+}
+.second-page{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(245, 244, 243);
+}
+.second-page .logo{
+    width: 10vw;
+    height: 10vh;
+    position: relative;
+    top: -22px;
+    left: -27px;
+}
+
+.second-page .logo img{
+    width: 160.31px;
+    height: 160.31px;
+    top: 717px;
+    left: -36px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.second_div{
+    position: relative;
+    top: 14%;
+    left: 14%;
+    width: 40vw;
+    height: 70vh;
+
+
+
+}
+
+.second_div .first-text{
+
+    background: rgba(79, 85, 221, 1);
+    border: 2px solid rgba(79, 85, 221, 1);
+    padding: 11px;
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 0%;
+    text-align: justify;
+
+
+}
+.second_div .second-text{
+
+    position: relative;
+    bottom: -4%;
+    color: rgb(18, 17, 17);
+    text-align: justify;
+    border: 2px solid rgb(220, 220, 231);
+    padding: 10px;
+    border-radius: 6px;
+
+
+}
+.second_div .third-text{
+    position: relative;
+    bottom: -8%;
+    color: rgb(18, 17, 17);
+    text-align: justify;
+    border: 2px solid rgb(220, 220, 231);
+    padding: 10px;
+    border-radius: 6px;
+
+
+}
+
+.second-page .second_image{
+    width: 40vw;
+    height: 92vh;
+    position: relative;
+    top: -115%;
+    left: 110%;
+
+}
+
+.second-page .second_image img{
+
+    width: 42vw;
+    height: 87vh;
+
+
+}
+
+.third-page{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+.third-page .first{
+    background: rgba(46, 213, 115, 0.5);
+    width: 100%;
+    height: 18vw;
+
+}
+.third-page .first .first-text{
+    position: relative;
+    width: 69vh;
+    height: 12vh;
+    top: 30%;
+    left: 6%;
+    font-size: 30px;
+    color:rgba(79, 79, 79, 1);
+
+
+}
+.third-page .first .second-text{
+    position: relative;
+    width: 58vh;
+    height: 12vh;
+    top: 0%;
+    right: -73%;
+    font-size: 30px;
+    color: rgba(79, 79, 79, 1);
+
+
+}
+.third-page .first .logo{
+    position: relative;
+    width: 13vh;
+    height: 15vh;
+    top: -30%;
+    left: 1%;
+
+}
+.third-page .first .logo img{
+    position: relative;
+    width: 33vh;
+    height: 26vh;
+    left: -112%;
+    top: -48%;
+
+
+
+}
+
+.third-page .second{
+    position: relative;
+    top: -35%;
+    left: 29%;
+    width: 60vw;
+    height: 86vh;
+}
+.third-page .second img{
+
+    width: 60vw;
+    width: 60vw;
+    height: 114vh;
+    position: relative;
+    top: -46%;
+    left: -13%;
+}
+
+
+
+
+.third-page .text-1{
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: -72%;
+    left: 5%;
+    color: rgba(40, 40, 40, 1);
+}
+.third-page .icon1{
+    width: 5%;
+    height: 6%;
+    position: relative;
+
+    top: -74%;
+    right: -5%;
+}
+.third-page .icon1 img{
+    width: 55%;
+    height: 113%;
+
+}
+
+.third-page .text-2{
+
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: -90%;
+    left: 74%;
+    color: rgba(40, 40, 40, 1);
+}
+
+.third-page .icon2{
+    width: 7%;
+    height: 6%;
+    position: relative;
+    top: -91%;
+    right: -73%;
+}
+.third-page .icon2 img{
+    width: 55%;
+    height: 113%;
+
+}
+
+
+.third-page .text-3{
+
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: -83%;
+    left: 5%;
+    color: rgba(40, 40, 40, 1);
+}
+
+.third-page .icon3{
+    width: 7%;
+    height: 6%;
+    position: relative;
+    top: -84%;
+    right: -4.5%;
+}
+.third-page .icon3 img{
+    width: 55%;
+    height: 113%;
+
+}
+.third-page .text-4{
+
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: -100%;
+    left: 28%;
+    color: rgba(40, 40, 40, 1);
+}
+
+.third-page .icon4{
+    width: 7%;
+    height: 6%;
+    position: relative;
+    top: -101%;
+    right: -27.5%;
+}
+.third-page .icon4 img{
+    width: 55%;
+    height: 113%;
+
+}
+.third-page .text-5{
+
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: -117%;
+    left: 50%;
+    color: rgba(40, 40, 40, 1);
+}
+
+
+.third-page .icon5{
+    width: 7%;
+    height: 6%;
+    position: relative;
+    top: -118%;
+    right: -49.5%;}
+
+.third-page .icon5 img{
+    width: 55%;
+    height: 113%;
+
+}
+.third-page .text-6{
+
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: -134%;
+    left: 74%;
+    color: rgba(40, 40, 40, 1);
+}
+
+.third-page .icon6{
+    width: 7%;
+    height: 6%;
+    position: relative;
+    top: -135%;
+    right: -73.5%;}
+
+.third-page .icon6 img{
+    width: 55%;
+    height: 113%;
+
+}
+
+/* fourth page start */
+
+.fourth-page{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+.fourth-page .image{
+    width: 40vw;
+    height: 80vh;
+    position: relative;
+    top: 13%;
+    left: 13%;
+}
+.fourth-page .image img{
+
+    width: 28vw;
+    height: 74vh;
+
+}
+.fourth-page .h4_div{
+    position: relative;
+    top: -50%;
+    left: 53%;
+    font-size: 20px;
+    width: 50%;
+    height: auto;
+
+}
+.fourth-page .h1_div{
+    position: relative;
+    top: -50%;
+    left: 53%;
+    width: 28%;
+    height: auto;
+    margin-top: 5px;
+    text-align: justify;
+    font-size: 20px;
+}
+.fourth-page .p_div{
+    position: relative;
+    top: -48%;
+    left: 53%;
+    width: 32%;
+    height: auto;
+    text-align: justify;
+}
+.fourth-page .second_image{
+    position: relative;
+    top: -125%;
+    left: 82%;
+    width: 32%;
+    height: auto;;
+}
+
+.five{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 85vh;
+    background: rgba(255, 71, 87, 0.5);
+
+}
+.five .h2{
+    position: relative;
+    top: 38%;
+    left: 4%;
+    font-size: 40px;
+    width: 53%;
+    color: rgba(79, 79, 79, 1);
+
+}
+.five .input{
+    position: relative;
+    top: 42%;
+    left: 4%;
+
+
+}
+.five .input input{
+
+    padding: 7px 24px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+
+}
+.five .button{
+
+    position: relative;
+    top: 33%;
+    left: 27%
+
+}
+.five .button button{
+
+    padding: 12px 21px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background: rgba(247, 60, 107, 1);
+    color: #fefbfb;
+
+}
+.five .image{
+    position: relative;
+    top: -51%;
+    left: 39%;
+    width: 60%;
+    height: 124%;
+
+}
+
+
+.five .image img{
+
+    width: 102%;
+    height: 160%;
+    position: relative;
+    top: -41%;
+    right: 8%;
+
+
+}
+.six_page{
+    background-color: rgb(249, 244, 244);
+    width: 100vw;
+    height: 100vh;
+}
+.six_page .h1{
+    position: relative;
+    top: 8%;
+    left: 4%;
+    width: 31%;
+    font-size: 18px;
+}
+
+
+.six_page .h1 h1{
+    position: relative;
+    top: -49%;
+    left: 4%;
+    font-size: 26px;
+    color: rgb(3, 3, 3);
+}
+
+.six_page .first{
+
+    background-color: rgba(255, 255, 255, 1);
+    width: 255px;
+    height: 252px;
+    position: relative;
+    top: 16%;
+    left: 5%;
+    border: 2px solid  rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 3px;
+
+
+
+}
+
+.six_page .first .h1{
+    position: relative;
+    top: 3%;
+    left: -1%;
+}
+
+.six_page .first .p{
+    position: relative;
+    top: 12%;
+    padding: 2px;
+    left: 0%;
+    font-size: 17px;
+    text-align: justify;
+
+}
+.six_page  .second{
+    position: relative;
+    top: 16%;
+    left: 5%;
+    font-size: 11px;
+    width: 255px;
+    height: 58px;
+    z-index: 1;
+    background: rgba(255, 210, 129, 1);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 210, 129, 1);
+
+
+}
+.six_page  .second h1{
+    padding: 15px 3px;
+    text-align: center;
+    font-size: 15px;
+}
+.the{
+    position: relative;
+    top: -48%;
+    left: 0;
+    font-size: 26px;
+    color: rgba(35, 36, 42, 1);
+}
+
+
+.six_page .first1{
+
+    background-color: rgba(255, 255, 255, 1);
+    width: 255px;
+    height: 252px;
+    position: relative;
+    top: -48%;
+    left: 37%;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 3px;
+
+
+}
+
+.six_page .first1 .h1{
+    position: relative;
+    top: 3%;
+    left: -1%;
+
+}
+
+ .six_page .first1 .p{
+    position: relative;
+    top: 12%;
+    padding: 2px;
+    left: 0%;
+    font-size: 17px;
+    text-align: justify;
+
+}
+.six_page  .second1{
+    position: relative;
+    top: -48%;
+    left: 37%;
+    font-size: 11px;
+    width: 255px;
+    height: 58px;
+    z-index: 1;
+
+    background: rgba(46, 213, 115, 0.5);
+
+    border-radius: 5px;
+    border: 1px solid rgba(255, 210, 129, 1);
+
+
+}
+.six_page  .second1 h1{
+    padding: 15px 3px;
+    text-align: center;
+    font-size: 15px;
+
+}
+.the1{
+    position: relative;
+    top: -48%;
+    left: 0;
+    font-size: 26px;
+  color: rgba(39, 92, 141, 0.1);
+}
+
+
+.six_page .first2{
+
+    background-color: rgba(255, 255, 255, 1);
+    width: 255px;
+    height: 252px;
+    position: relative;
+    top: -112%;
+    left: 70%;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 3px;
+    margin-right: 3px;
+
+
+}
+
+.six_page .first2 .h1{
+    position: relative;
+    top: 3%;
+    left: -1%;
+
+
+}
+
+ .six_page .first2 .p{
+    position: relative;
+    top: 12%;
+    padding: 2px;
+    left: 0%;
+    font-size: 17px;
+    text-align: justify;
+
+}
+.six_page  .second2{
+    position: relative;
+    top: -112%;
+    left: 70%;
+    font-size: 11px;
+    width: 255px;
+    height: 58px;
+    z-index: 1;
+    background: rgba(255, 163, 171, 1);
+
+    border-radius: 5px;
+    border: 1px solid rgba(255, 210, 129, 1);
+
+
+}
+.six_page  .second2 h1{
+    padding: 15px 3px;
+    text-align: center;
+    font-size: 15px;
+
+}
+.the2{
+    position: relative;
+    top: -48%;
+    left: 0;
+    font-size: 26px;
+    color: rgba(35, 36, 42, 1);
+}
+
+/* page seven start */
+
+.seven_page{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(46, 213, 115, 0.5);
+
+
+}
+.seven_page ul{
+    display: flex;
+   justify-content: space-evenly;
+   padding: 50px;
+}
+.seven_page ul a{
+text-decoration: none;
+}
+.seven_page ul li{
+list-style: none;
+}
+.seven_page .dumy_text{
+    width: 273px;
+    height: 150px;
+    position: relative;
+    top: -7%;
+    left: 10%;
+}
+
+.eGENCY{
+    position: relative;
+    top: 0;
+    display: inline-block;
+    left: -26%;
+    transform: translateX(-50%);
+    font-size: 26px;
+}
+
+.seven_page .second_list{
+    display: flex;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+     bottom: 245px;
+    left: 35%;
+}
+.seven_page .second_list li:nth-child(2){
+margin-top: -5px;
+}
+.seven_page .second_list li:nth-child(3){
+margin-bottom: -5px;
+}
+.seven_page .second_list li:nth-child(4){
+margin-bottom: -5px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.seven_page .second_list2{
+    display: flex;
+
+    position: relative;
+    flex-direction: column;
+    bottom: 500px;
+    left: 52%;
+
+}
+.seven_page .second_list3{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    bottom: 46rem;
+    left: 70%;
+}
+
+
+.second_list4{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    /* top: 0%; */
+    bottom: 42rem;
+    left: 51%;
+
+    height: auto;
+    width: 492px;
+
+
+
+}
+.second_list4 a{
+
+    color: black;
+
+}
+.seven_page .first_image{
+
+    position: relative;
+    top: -170%;
+    height: 0%;
+
+    width: 200px;
+    height: 200px;
+
+}
+.seven_page .first_image img{
+    width: 200px;
+    height: 200px;
+
+
+    position: relative;
+    top: 0%;
+    height: 100%;
+
+}
+#hr{
+    position: relative;
+    color: black;
+    bottom: 148%;
+    left: 18%;
+    width: 81%;
+    background-color: black;
+    height: 1.5px;
+}
+
+.all_image{
+    position: relative;
+    /* top: -5%; */
+    bottom: 182%;
+    left: 33%;
+    width: 100%;
+}
+
+/* Base styling for the navigation links */
+nav a {
+    text-decoration: none;
+    color: #000; /* Set link color */
+    position: relative;
+    display: inline-block; /* Ensure each link behaves as a block for the underline effect */
+    padding-bottom: 5px; /* Optional padding for spacing */
+}
+
+/* Hover effect: underline for individual links */
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #000; /* Set the underline color */
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+/* On hover, the underline expands for the hovered link only */
+nav a:hover::after {
+     width: 100%;
+}
+
+.text_button:hover{
+    background-color: #f12207;
+    color: #fff;
+}
+.text_h2 {
+    font-weight: 900;
+    font-size: 31px;
+    color: rgba(55, 63, 65, 1);
+    margin-bottom: 5vh;
+}
